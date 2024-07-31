@@ -22,18 +22,6 @@ var (
 
 // https://mickey.dev/posts/go-build-tags-testing/
 // https://martinyonathann.medium.com/integration-unit-and-e2e-testing-in-golang-3e957f9920dd
-func TestMain(m *testing.M) {
-
-	// if os.Getenv("E2E") != "" {
-	// 	active := os.Getenv("E2E_ACTIVE")
-	// 	if strings.ToUpper(active) == "FALSE" {
-	// 		os.Setenv("E2E_ACTIVE", "TRUE")
-	// 		server.RunServer()
-
-	// 	}
-	// }
-
-}
 
 func TestPersonPostSimple(t *testing.T) {
 	p := model.Person{
