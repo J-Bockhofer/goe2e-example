@@ -37,6 +37,7 @@ func TestPersonPostSimple(t *testing.T) {
 		},
 		RequestMods: []goe2e.RequestModifier{
 			goe2e.WithContentType(goe2e.ContentHeaderJSON),
+			goe2e.WithTimeToFirstByte(),
 		},
 		PreTestStatements: []goe2e.TestStatement{
 			{Description: "request not nil", Statement: func(t *testing.T, rh *goe2e.RequestHandler) {

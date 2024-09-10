@@ -3,7 +3,7 @@ module goe2e-example
 go 1.22.3
 
 require (
-	github.com/J-Bockhofer/goe2e v0.0.0-20240731171150-8773ad03eaf7
+	github.com/J-Bockhofer/goe2e v0.0.0-20240910195208-b0c1746df054
 	github.com/gin-gonic/gin v1.10.0
 	github.com/stretchr/testify v1.9.0
 )
